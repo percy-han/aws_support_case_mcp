@@ -1,13 +1,13 @@
 # 安装uv
 ##Ubuntu OS
 curl -LsSf https://astral.sh/uv/install.sh | sh
+
 source $HOME/.local/bin/env
 
 ## 创建虚拟环境（默认会生成 `.venv` 目录）
 uv venv
 
 ## 激活虚拟环境（根据操作系统选择命令）
-# Linux/macOS
 source .venv/bin/activate
 
 
