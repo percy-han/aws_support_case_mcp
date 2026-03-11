@@ -776,7 +776,7 @@ def main():
     logger.debug('Starting awslabs_support_mcp_server MCP server')
 
     # Log the startup mode
-    logger.info('Starting AWS Support MCP Server with stdio transport')
+    logger.info('Starting AWS Support MCP Server with streamable-http transport')
     # Run with http transport
     mcp.run(transport="streamable-http")
 
